@@ -55,7 +55,7 @@ public class ProductBillingSystemA {
         double totalSavings = (discountAmount * quantity) + savedOnShipping;
 
         // 4. Output Printing
-        System.out.println("\n===== 🛒 BILLING SUMMARY =====");
+        System.out.println("\n===== BILLING SUMMARY =====");
         System.out.println("Original Price Per Product : ₹" + price);
         System.out.println("Discount Applied (" + discountPercent + "%) : -₹" + discountAmount);
         System.out.println("State Tax (2.5%)           : +₹" + stateTax);
